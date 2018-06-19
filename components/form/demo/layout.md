@@ -21,7 +21,7 @@ class FormLayoutDemo extends React.Component {
   constructor() {
     super();
     this.state = {
-      formLayout: 'horizontal',
+      formLayout: 'vertical',
     };
   }
   handleFormLayoutChange = (e) => {
